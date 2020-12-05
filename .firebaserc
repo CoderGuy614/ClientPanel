@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "clientpanel-160e6": {
+      "hosting": {
+        "clientpanel": [
+          "clientpanel-160e6"
+        ]
+      }
+    }
+  }
+}
