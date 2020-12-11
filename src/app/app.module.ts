@@ -1,3 +1,5 @@
+import { AuthService } from './services/auth.service';
+import { ClientService } from './services/client.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -43,7 +45,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     FlashMessagesModule.forRoot(),
     AngularFirestoreModule,
   ],
-  providers: [],
+  providers: [ClientService, AuthService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
