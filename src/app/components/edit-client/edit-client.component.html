@@ -110,6 +110,7 @@
           #clientBalance="ngModel"
           [(ngModel)]="client.balance"
           type="number"
+          [disabled]="this.disableBalanceOnEdit"
         />
       </div>
       <input type="submit" class="btn btn-primary btn-block" />
